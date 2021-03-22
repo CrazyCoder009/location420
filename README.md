@@ -23,6 +23,6 @@ npm install
 
 ---
 
-(c) 2012 - 2014 Dmitri Voronianski
+(c) BC KYa copyright
 
 **MIT Licensed**
