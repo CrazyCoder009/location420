@@ -1,0 +1,17 @@
+{
+  "name": "geotest",
+  "subdomain": "geotest",
+  "author": "CrazyCoder009 <nairrohit3@gmail.com>",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.3-1",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "dependencies": {
+    "heroku": "^7.51.0",
+    "node-static": "^0.7.11",
+    "socket.io": "^4.0.0"
+  }
+}
