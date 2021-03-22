@@ -1,7 +1,7 @@
 var server = require('http').createServer(handler);
 var Static = require('node-static');
 var io = require('socket.io')(server);
-var port = 8080;
+var port = 3001;
 
 var files = new Static.Server('./public');
 
@@ -19,5 +19,5 @@ io.sockets.on('connection', function (socket) {
 });
 
 // start app on specified port
-server.listen(port);
+server.listen(process.env.PORT || port);
 console.log('Your server goes on localhost:' + port);
