@@ -1,7 +1,7 @@
 var server = require('http').createServer(handler);
 var Static = require('node-static');
 var io = require('socket.io')(server);
-var port = 3001;
+var port = 8080;
 
 var files = new Static.Server('./public');
 
